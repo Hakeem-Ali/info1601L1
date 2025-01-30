@@ -1,46 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-
-        <style>
-            p{
-                color:red;
-            }
-
-            #para-1{
-                color:blue;
-            }
-            
-            .para{
-                color:green;
-            }
-        </style>
-
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <title>My First Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-        <p>This my first website</p><br>
-        <p>Welcome</p>
+        <header>
+            <h1>This is my first website</h1><br>
+        </header>
+        <article>
+            <section>
+                <p>Welcome</p><br>
+            </section>
 
-        <h1>This</h1>
-        <h2>is</h2>
-        <h3>my</h3>
-        <h4>first</h4>
-        <h5>website</h5>
+            <section>
+                <b>bold</b><br>
+                <strong>strong</strong><br>
+                <mark>highlighted text</mark><br>
+                <u>underlined</u><br>
+                <s>strikethrough</s><br>
+                Text<sub>subscript</sub><br>
+                Text<sup>supercript</sup><br>
+            </section>
 
-        <p id="para-1"> Somw more words </p>
+            <section>
+                <code>code</code><br>
+                <samp>sample output from a computer program</samp><br>
+                <kbd>keyboard input</kbd><br>
+            </section>
+
+            <section>
+                <em>emphasized text</em><br>
+                <var>variable</var><br>
+                <cite>citation</cite><br>
+                <dfn>definition</dfn><br>
+            </section>
+
+            <section>
+                <h1>This</h1>
+                <h2>is</h2>
+                <h3>a</h3>
+                <h4>heading</h4>
+                <br>
         
-        <p class="para"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae perspiciatis, ea provident, tenetur fugit alias, ipsum blanditiis laudantium rerum sed officia neque necessitatibus ullam optio quae maiores voluptatibus praesentium doloremque.</p>
+                <p hidden="true">This is hidden</p>
+                <p title="my paragraph">This adds a tool tip when hovered over with cursor</p>
+                <p style="color:red">This is red</p>
+                <p id="para-1">This has a unique identifier</p>
+                <p class="header-paras">This attaches a unique identifier to group elements</p>
+                <br>
         
-        <img src="cage.gif"></img> <br>
+                <img src="cage.gif">This provides a image</img> <br>
+                <input type="text"><br>
+                <a href="https://www.google.com/">This is a url</a>
+                <br>
+            </section>
 
-        <br>        
-        <input type="text">
-        <input type="password">
-        <input type="email">
-        <input type="range">
-        <input type="date">
+            <section>
+                <figure>
+                    <img src="https://lorempixel.com/200/200/cats" alt="a random cat">
+                    <figcaption>Fig 1. A random cat</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <p>An Ordered List:</p>
+                <ol>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                </ol>
+
+                <p>An Unordered List:</p>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                </ul>
+
+                <p>A Description List:</p>
+                <dl>
+                    <dt>Coffee</dt>
+                    <dd>Black and Hot</dd>
+                    <dt>Milk</dt>
+                    <dd>White and Cold</dd>
+                </dl>
+            </section>
+
+            <section>
+                <details>
+                    <summary>Hobbies:</summary>
+                    <ul>
+                        <li>Gaming</li>
+                        <li>Sleeping</li>
+                    </ul>
+                </details>
+            </section>
+        </article>
+
         <br>
-        <a href="https://www.google.com/search?q=trinidad&rlz=1C1VDKB_enTT1065TT1065&oq=trinidad&gs_lcrp=EgZjaHJvbWUqBwgAEAAYjwIyBwgAEAAYjwIyCggBEC4YsQMYgAQyDQgCEAAYgwEYsQMYgAQyDQgDEAAYgwEYsQMYgAQyDQgEEAAYgwEYsQMYgAQyDQgFEAAYgwEYsQMYgAQyDQgGEAAYgwEYsQMYgAQyDQgHEAAYgwEYsQMYgAQyBwgIEAAYgAQyCggJEAAYsQMYgATSAQgyMzk4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8">Link</a>
-
+ 
     </body>
 </html>
